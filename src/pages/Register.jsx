@@ -4,8 +4,8 @@ import Add from "../img/addAvatar.png";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { auth, db, storage } from "../firebase"
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
-import { doc, setDoc } from "firebase/firestore"; 
-import { Link, useNavigate } from 'react-router-dom';
+import { collectionGroup, doc, setDoc } from "firebase/firestore"; 
+import { Link, Navigate, useNavigate } from 'react-router-dom';
 
 
 const Register = () => {
@@ -59,6 +59,8 @@ const Register = () => {
 
   }
 
+
+    console.log("running")
 
   return (
     <div className="formContainer">

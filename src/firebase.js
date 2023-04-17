@@ -5,12 +5,12 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAWUsgbdps_zOU24tLsGlII6yGDfZGKF7M",
-  authDomain: "chatmate-c9c66.firebaseapp.com",
-  projectId: "chatmate-c9c66",
-  storageBucket: "chatmate-c9c66.appspot.com",
-  messagingSenderId: "704571702681",
-  appId: "1:704571702681:web:f558172827e150c5b2e708"
+  apiKey: "AIzaSyDOZ0Rny-H5rTEnGJ2YOYZ5KXmtsQtg570",
+  authDomain: "chat-f6bfc.firebaseapp.com",
+  projectId: "chat-f6bfc",
+  storageBucket: "chat-f6bfc.appspot.com",
+  messagingSenderId: "811071657391",
+  appId: "1:811071657391:web:2d5c87141fbd8e5d268b5a"
 };
 
 // Initialize Firebase
