@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <div className='navbar'>
-      <span className="logo">My Chat App</span>
+      <span className="logo">chatMate </span>
       <div className="user">
         <img src={currentUser.photoURL} alt="" />
         <span>{currentUser.displayName}</span>
